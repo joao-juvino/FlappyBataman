@@ -34,6 +34,7 @@ body{
     font-size: 3.5rem;
     margin-bottom: 3rem;
     color: cornsilk;
+    text-align: center;
 }
 
 .menu-wrapper{
@@ -84,6 +85,7 @@ body{
 .content .gameOver h1{
     font-family: Pixel;
     font-size: 10rem;
+    text-align: center;
 }
 
 .content .gameOver button{
@@ -99,59 +101,22 @@ body{
     cursor: pointer;
 }
 
-.selecionarPersonagem{
-    border: solid 5px rgb(24, 16, 16);
-    border-radius: 10px;
-    width: 300px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    display: none;
-    background-color: slateblue;
+@media (max-width: 1000px){
+    .menu-wrapper{
+        width: 50%;
+    }
+    
+    .content .gameOver h1{
+        font-size: 8rem;
+    }
 }
 
-.selecionarPersonagem h3{
-    font-family: Pixel;
-    font-size: 2rem;
-    text-align: center;
-    margin: 15px 0 15px 0;
-    color: rgb(24, 16, 16);
-}
-
-.personagem_wrapper{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-}
-
-.personagem_wrapper .personagem{
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-}
-
-.personagem_wrapper .personagem:hover{
-    border: solid 5px rgb(24, 16, 16);
-}
-
-.fecharSelecionarPersonagem{
-    display: flex;
-    position: relative;
-    width: 83%;
-    top: 15px;
-    justify-content: end;
-}
-
-.fecharSelecionarPersonagem p{
-    cursor: pointer;
-    font-family: Pixel;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color: rgb(24, 16, 16);
-}
-
-.selecionado{
-    border: solid 5px rgb(24, 16, 16);
+@media (max-width: 700px){
+    .menu-wrapper{
+        width: 80%;
+    }
+    
+    .content .gameOver h1{
+        font-size: 5rem;
+    }
 }

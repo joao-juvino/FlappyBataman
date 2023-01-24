@@ -1,3 +1,5 @@
+alert("A versão mobile da aplicação ainda não está disponível.")
+
 const links = document.querySelectorAll(".menuLink")
 
 const audio = document.createElement("audio")

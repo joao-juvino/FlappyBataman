@@ -62,14 +62,14 @@
 .barreira .borda{
     width: 130px;
     height: 40px;
-    background-color: slateblue;
+    background-color: gray;
     border: solid 2px #000;
 }
 
 .barreira .corpo{
     width: 110px;
     height: 80px;
-    background-color: slateblue;
+    background-color: gray;
     border-left: solid 2px #000;
     border-right: solid 2px #000;
 }

@@ -1,4 +1,3 @@
-
 function novoElemento(tagName, className) {
     const element = document.createElement(tagName)
     element.classList.add(className)
@@ -171,7 +170,7 @@ function FlappyBird() {
         const temporizador = setInterval(() => {
             barreiras.animar()
             passaro.animar()
-
+            
             if (colidir(passaro, barreiras.pares)) {
                 clearInterval(temporizador)
                 window.location.href = "./gameover.html"
